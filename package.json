@@ -1,0 +1,33 @@
+{
+  "name": "voedl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "@keyv/sqlite": "^4.0.4",
+    "express": "^5.1.0",
+    "keyv": "^5.3.4",
+    "node-gyp": "^11.2.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "jsdom-browser": "^0.6.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "puppeteer",
+      "sqlite3"
+    ]
+  }
+}
